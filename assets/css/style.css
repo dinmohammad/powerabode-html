@@ -2,60 +2,7 @@
     CSS Index         
 ==============================
 
-    01. Default Css
-        - Breadvrumb 
-        - Preloader   
-        - Scroll top 
-        - Dividers Css 
-        - Google Map Css 
-    02. Section Spacing Css
-    03. Custom Animation Css
-    04. container Css 
-    05. Header Css 
-        - language
-        - Navigation Menu Css
-        - Multilevel Submenu Css
-        - Mega Menu Css
-        - Mobile Menu Overlay Css
-        - offset search
-        - search overlay
-    06. Footer Css
-    07. Sidebar Css
-    08. Button Css 
-    09. Accordions Css 
-    10. Call To Action Css  
-    11. Countdown Css 
-    12. Counters Css 
-    13. Box Icon Css
-    14. Box Images Css
-    15. Box Large Images Css
-    16. Brand Logo Css  
-    17. Listing Css
-    18. Gradation Process Css     
-    19. Instagram Css     
-    20. Message Box Css 
-    21. Video Popup Css
-    22. Pricing table Css
-    23. progress Bar Css 
-    24. Circle Progress Css
-    25. Row Separators Css
-    26. Social Networks Css 
-    27. Listing Css
-    29. Team Member Css 
-    30. Timeline Css
-    31. Testimonial slider Css 
-    32. Project Css 
-    33. Contact Us Css 
-    34. Blog Pages Css
-    35. Infotechno Css  
-    36. Processing Hero Css
-    37. Processing Hero Css
-    38. Resolutions home Css
-    39. Cybersecurity home Css  
-    40. About Us pages Css
-    41. Single Smart Vision Css
-    42. Redraw Css
-    43. Preview Page Css 
+  
 
 
 /*=====  End of CSS Index  ======*/
@@ -77,7 +24,7 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  font-family: "CerebriSans";
+  font-family: 'Montserrat', sans-serif;;
   color: #696969;
   position: relative;
   background-color: #ffffff;
@@ -89,7 +36,7 @@ body.no-overflow {
 
 h1, h2, h3, h4, h5, h6 {
   color: #333333;
-  font-family: "CerebriSans";
+  font-family: 'Montserrat', sans-serif;;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -3403,7 +3350,7 @@ input[type="checkbox"] {
   padding: 12px 2px;
   position: relative;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.18;
   -webkit-transition: all 0.0s ease-in-out;
   -o-transition: all 0.0s ease-in-out;
@@ -4614,10 +4561,12 @@ input[type="checkbox"] {
 .footer-widget__title {
   margin-top: -3px;
   color: #333333;
+  font-weight: 500;
 }
 
 .footer-widget__list li {
   margin-bottom: 0;
+  display: table;
 }
 
 .footer-widget__list li:last-child {
